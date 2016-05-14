@@ -7,4 +7,5 @@
     <string name="confirm_message">Tem certeza que deseja sair?</string>
     <string name="bt_sim">SIM</string>
     <string name="bt_nao">NÃO</string>
+    <string name="action_register">Registrar-se</string>
 </resources>

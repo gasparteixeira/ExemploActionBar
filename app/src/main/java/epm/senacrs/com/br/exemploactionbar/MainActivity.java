@@ -2,6 +2,7 @@ package epm.senacrs.com.br.exemploactionbar;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -57,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
 
         builder.setMessage(R.string.confirm_message)
-                .setPositiveButton(R.string.bt_sim,  new DialogInterface.OnClickListener() {
+                .setPositiveButton(R.string.bt_sim, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int id) {
                         finish();
@@ -70,5 +71,10 @@ public class MainActivity extends AppCompatActivity {
                     }
                 })
                 .show();
+    }
+
+    public void onRegisterContato(MenuItem item) {
+        Intent intent = new Intent(this, CadastroActivity.class);
+        startActivity(intent);
     }
 }
