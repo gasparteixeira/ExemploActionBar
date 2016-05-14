@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Exemplo Action Bar</string>
     <string name="action_settings">Configurações</string>
+    <string name="action_logout">logout</string>
 </resources>
