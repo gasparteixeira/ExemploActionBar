@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">Exemplo Action Bar</string>
     <string name="action_settings">Configurações</string>
+    <string name="str_compartilhar">Compartilhar</string>
     <string name="action_logout">logout</string>
+    <string name="str_buscar">Buscar</string>
+    <string name="confirm_message">Tem certeza que deseja sair?</string>
+    <string name="bt_sim">SIM</string>
+    <string name="bt_nao">NÃO</string>
 </resources>
